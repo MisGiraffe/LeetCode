@@ -1,3 +1,4 @@
+//  3. 无重复字符的最长子串 https://leetcode.cn/problems/longest-substring-without-repeating-characters
 import 'dart:math';
 
 void main() {
@@ -13,6 +14,7 @@ int lengthOfLongestSubstring(String s) {
   int i = 0;
   int j = 0;
   while (j < s.length) {
+    print("str : ${s.substring(i, j)} i:${i}, j:${j}");
     if (s.substring(i, j).contains(s[j])) {
       i++;
     } else {
