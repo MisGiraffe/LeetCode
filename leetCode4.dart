@@ -38,6 +38,7 @@ double findMedianSortedArrays(List<int> nums1, List<int> nums2) {
       j++;
     }
   }
+  // 判断是奇数个还是偶数个
   if ((nums1.length + nums2.length) % 2 == 0) {
     return (milddleList[middleInt - 1] + milddleList[middleInt]) / 2;
   } else {
