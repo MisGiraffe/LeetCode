@@ -15,8 +15,6 @@ void main() {
 int myAtoi(String s) {
   int result = 0;
   int isNegative = 1;
-  String startNum = '0';
-  String endNum = '9';
   final max = 2147483647;
   final min = -2147483648;
   for (int i = 0; i < s.length; i++) {
