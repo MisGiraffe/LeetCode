@@ -18,12 +18,12 @@ void main() {
 
   ListNode l22 = ListNode();
   ListNode l2 = l22;
-  // l22.next = ListNode(1);
-  // l22 = l22.next!;
-  // l22.next = ListNode(3);
-  // l22 = l22.next!;
-  // l22.next = ListNode(4);
-  // l22 = l22.next!;
+  l22.next = ListNode(1);
+  l22 = l22.next!;
+  l22.next = ListNode(3);
+  l22 = l22.next!;
+  l22.next = ListNode(4);
+  l22 = l22.next!;
 
   ListNode? result = mergeTwoLists(l1.next, l2.next);
   while (result != null) {
