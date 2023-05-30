@@ -18,17 +18,17 @@ void main() {
   list?.next = ListNode(4);
   list = list?.next;
 
-  // ListNode? result = swapPairs(head.next);
-  // while (result != null) {
-  //   print("result ${result.val}");
-  //   result = result.next;
-  // }
-
-  ListNode? result2 = swapPairs2(head.next);
-  while (result2 != null) {
-    print("result2 ${result2.val}");
-    result2 = result2.next;
+  ListNode? result = swapPairs(head.next);
+  while (result != null) {
+    print("result ${result.val}");
+    result = result.next;
   }
+
+  // ListNode? result2 = swapPairs2(head.next);
+  // while (result2 != null) {
+  //   print("result2 ${result2.val}");
+  //   result2 = result2.next;
+  // }
 }
 
 ListNode? swapPairs(ListNode? head) {
