@@ -1,4 +1,4 @@
-// 38. 外观数列 https://leetcode.cn/problems/count-and-say/
+// 38. 外观数列 https://leetcode.cn/problems/count-and-say
 
 void main(List<String> args) {
   print(countAndSay(4));
