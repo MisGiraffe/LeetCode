@@ -12,14 +12,12 @@ String countAndSay(int n) {
     String curStr = "";
     while (pos < preStr.length) {
       while (pos < preStr.length && preStr[pos] == preStr[start]) {
-        // print("n: ${n} pos: ${pos}");
         pos++;
       }
       curStr += (pos - start).toString() + preStr[start];
       start = pos;
     }
     preStr = curStr;
-    // print("preStr ${preStr}");
   }
   return preStr;
 }
